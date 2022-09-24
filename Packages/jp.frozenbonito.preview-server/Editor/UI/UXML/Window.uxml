@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:engine="UnityEngine.UIElements"
+  xmlns:editor="UnityEditor.UIElements"
+  xmlns:previewserver="UnityPreviewServer.UI.Elements"
+  xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:VisualElement name="userSettings" class="group">
+    <engine:Label class="heading" text="User Settings" />
+    <engine:VisualElement class="setting-container">
+      <engine:VisualElement class="setting-group">
+        <engine:Toggle
+          name="buildLocationToggle"
+          label="Use Default Location"
+          binding-path="_useDefaultBuildLocation"
+        />
+        <previewserver:FolderField
+          name="buildLocationField"
+          label="Build Location"
+          panel-title="Select build location"
+          binding-path="_buildLocation"
+        />
+      </engine:VisualElement>
+      <engine:VisualElement class="setting-group">
+        <engine:Toggle
+          name="portToggle"
+          label="Use Default Port"
+          binding-path="_useDefaultPort"
+        />
+        <editor:PropertyField
+          name="portField"
+          label="Port"
+          binding-path="_port"
+        />
+      </engine:VisualElement>
+    </engine:VisualElement>
+  </engine:VisualElement>
+  <engine:VisualElement name="console" class="group">
+    <engine:Label class="heading" text="Console" />
+    <engine:VisualElement class="container">
+      <engine:VisualElement class="console-buttons">
+        <engine:Button name="startStopButton" />
+        <engine:Button name="clearButton" text="Clear" />
+      </engine:VisualElement>
+      <previewserver:LogViewer name="logViewer" />
+    </engine:VisualElement>
+  </engine:VisualElement>
+</engine:UXML>

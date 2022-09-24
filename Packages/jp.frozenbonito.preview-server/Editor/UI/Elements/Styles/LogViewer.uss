@@ -1,0 +1,6 @@
+#log-view {
+  background-color: #2A2A2A;
+  border-color: #212121;
+  border-width: 1px;
+  padding: 2px;
+}

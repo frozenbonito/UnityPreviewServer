@@ -1,0 +1,7 @@
+#text:hover {
+  background-color: #585858;
+}
+
+.error-log TextElement {
+  color: red;
+}

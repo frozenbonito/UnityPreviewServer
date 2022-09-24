@@ -1,0 +1,31 @@
+.group {
+  margin-bottom: 10px;
+}
+
+.heading {
+  margin-bottom: 2px;
+  padding: 2px 10px;
+  -unity-font-style: bold;
+}
+
+.setting-group {
+  margin-bottom: 4px;
+}
+
+.setting-group Toggle {
+  margin-bottom: 1px;
+}
+
+.console-buttons {
+  flex-shrink: 0;
+  margin-bottom: 4px;
+}
+
+#userSettings {
+  flex-shrink: 0;
+}
+
+LogViewer #log-view {
+  min-height: 200px;
+  margin: 1px 3px;
+}

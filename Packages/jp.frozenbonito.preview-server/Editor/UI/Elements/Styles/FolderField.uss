@@ -1,0 +1,28 @@
+#root {
+  flex-direction: row;
+  flex-shrink: 0;
+  overflow: hidden;
+  margin: 0 3px;
+}
+
+#label {
+  margin: 1px 2px 1px 0;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  min-width: 150px;
+}
+
+#text {
+  flex-grow: 1;
+  background-color: #2A2A2A;
+  border-color: #212121;
+  border-width: 1px;
+  border-radius: 3px;
+  margin: 1px 0;
+  padding: 1px 2px 1px 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -unity-overflow-clip-box: content-box;
+  -unity-text-align: middle-left;
+}
