@@ -14,7 +14,18 @@ This extension allows you to run your WebGL application on a fixed port without 
 
 ## Installation
 
-In preparation.
+### Install via git URL
+
+1. Open Package Manager window in your Unity Editor (`Main Menu > Window > Package Manager`).
+2. Click `+` and select `Add package from git URL...`.
+3. Add `https://github.com/frozenbonito/UnityPreviewServer.git?path=Packages/jp.frozenbonito.preview-server`.
+
+You can specify a version with a URL suffix like `v1.0.0`.
+For example, `https://github.com/frozenbonito/UnityPreviewServer.git?path=Packages/jp.frozenbonito.preview-server#v1.0.0`.
+
+### Install via OpenUPM
+
+See the [OpenUPM package documentation](https://openupm.com/packages/jp.frozenbonito.preview-server/).
 
 ## Usage
 
