@@ -9,8 +9,8 @@ permissions:
   contents: read
 
 jobs:
-  lint:
-    name: Lint
+  check-format:
+    name: Check format
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
