@@ -3,6 +3,7 @@
 [![CI](https://github.com/frozenbonito/UnityPreviewServer/actions/workflows/ci.yaml/badge.svg)](https://github.com/frozenbonito/UnityPreviewServer/actions/workflows/ci.yaml)
 [![License](https://img.shields.io/github/license/frozenbonito/UnityPreviewServer)](https://github.com/frozenbonito/UnityPreviewServer/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/frozenbonito/UnityPreviewServer)](https://github.com/frozenbonito/UnityPreviewServer/releases/latest)
+[![OpenUPM](https://img.shields.io/npm/v/jp.frozenbonito.preview-server?label=openupm&registry_uri=https://package.openupm.com&color=orange)](https://openupm.com/packages/jp.frozenbonito.preview-server/)
 
 Unity Preview Server is a Unity editor extension for previewing WebGL application locally.
 
