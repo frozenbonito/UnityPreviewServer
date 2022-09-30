@@ -75,7 +75,6 @@ namespace UnityPreviewServer.Core
 
 		void OnEnable()
 		{
-			hideFlags &= ~HideFlags.NotEditable;
 			BuildLocation = Utils.GetDefaultBuildLocation();
 			_enabled = true;
 		}

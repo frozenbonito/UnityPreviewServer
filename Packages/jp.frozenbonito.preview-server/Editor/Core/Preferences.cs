@@ -25,7 +25,7 @@ namespace UnityPreviewServer.Core
 
 		void OnEnable()
 		{
-			hideFlags &= ~HideFlags.NotEditable;
+			_enabled = true;
 		}
 
 		void OnValidate()

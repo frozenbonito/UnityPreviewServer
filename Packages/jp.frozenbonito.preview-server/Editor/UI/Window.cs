@@ -1,6 +1,7 @@
 using System;
 using UnityEditor;
 using UnityEditor.UIElements;
+using UnityEngine;
 using UnityEngine.UIElements;
 using UnityPreviewServer.Core;
 using UnityPreviewServer.UI.Elements;
@@ -24,6 +25,8 @@ namespace UnityPreviewServer.UI
 
 		public void CreateGUI()
 		{
+			UserSettings.instance.hideFlags &= ~HideFlags.NotEditable;
+
 			var root = rootVisualElement;
 
 			var globalStyle = AssetDatabase.LoadAssetAtPath<StyleSheet>($"{Constants.PackagePath}/Editor/UI/Styles/Global.uss");

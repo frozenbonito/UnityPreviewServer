@@ -1,5 +1,6 @@
 using UnityEditor;
 using UnityEditor.UIElements;
+using UnityEngine;
 using UnityEngine.UIElements;
 using UnityPreviewServer.Core;
 
@@ -19,6 +20,8 @@ namespace UnityPreviewServer.UI
 
 		public override void OnActivate(string searchContext, VisualElement rootElement)
 		{
+			Preferences.instance.hideFlags &= ~HideFlags.NotEditable;
+
 			var globalStyle = AssetDatabase.LoadAssetAtPath<StyleSheet>($"{Constants.PackagePath}/Editor/UI/Styles/Global.uss");
 			rootElement.styleSheets.Add(globalStyle);
 
