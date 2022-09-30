@@ -1,6 +1,6 @@
 {
   "name": "jp.frozenbonito.preview-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Unity Preview Server for WebGL",
   "description": "Local Preview Server for Unity WebGL",
   "author": {
